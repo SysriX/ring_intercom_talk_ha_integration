@@ -1,0 +1,16 @@
+{
+  "domain": "ring_sprechanlage",
+  "name": "Ring Intercom Talk",
+  "codeowners": [
+    "@SysriX"
+  ],
+  "config_flow": false,
+  "dependencies": [
+    "ring"
+  ],
+  "documentation": "https://github.com/SysriX/ring_intercom_talk_ha_integration",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/SysriX/ring_intercom_talk_ha_integration/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

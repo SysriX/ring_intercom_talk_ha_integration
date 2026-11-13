@@ -1,0 +1,9 @@
+Ring Intercom Talk (ring_sprechanlage)
+
+This integration is based on ring-intercom-video by cmos486
+(https://github.com/cmos486/ring-intercom-video), licensed under the
+Apache License, Version 2.0 (see LICENSE).
+
+Modifications: reduced to two-way talk only, added support for the
+audio-only Ring Intercom (intercom_handset_audio), session tracking and a
+"talk active" binary sensor.
