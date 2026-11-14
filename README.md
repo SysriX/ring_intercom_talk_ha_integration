@@ -4,6 +4,12 @@ Custom integration that enables **two-way talk with a Ring Intercom directly fro
 including the audio-only model (`intercom_handset_audio`). The official Ring integration only provides ding and
 door-unlock entities for the Intercom; this integration adds the missing talk path.
 
+![Ring Intercom Talk preview](docs/images/preview.png)
+*How the talk path works: Home Assistant relays the WebRTC signalling, audio flows directly between browser and Ring*
+
+![Ring Intercom Talk card](docs/images/card.png)
+*Companion card [Ring Intercom Talk Card](https://github.com/SysriX/ring_intercom_talk_ha_card): idle and during a call (UI in German)*
+
 - Domain: `ring_sprechanlage` (German name kept for compatibility)
 - Version: 0.1.0 – **experimental**
 - Entity names are German ("Gegensprechen", "Gespräch aktiv")
